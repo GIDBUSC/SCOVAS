@@ -191,43 +191,45 @@
 			<table style="padding-right: 10px;">
  
   <tr>
-    <td align="left">                    <a href="https://github.com/ESIPFed/QueryAnalyticsOfBigClimateData/wiki/UDSF:-Focal-Functions" class="btn btn-default btn-xl wow tada" target="_blank">&nbsp;Spatial  Functions &nbsp;<i class="fa fa-lg fa-arrow-circle-right"></i></a>
+    <td align="left">                    <a href="https://github.com/GIDBUSC/SCOVAS/wiki/UDSF:-Spatial-Functions" class="btn btn-default btn-xl wow tada" target="_blank">&nbsp;Spatial  Functions &nbsp;<i class="fa fa-lg fa-arrow-circle-right"></i></a>
 </td>
-    <td align="left">                    <p>Focal operation is used for supporting spatial neighbourhood analysis. It uses a moving window to define the neighbourhood for each cell in the grid, and all cells contained in the neighbourhood are summarized using the statistical function to obtain a statistic.</p>
+    <td align="left">                    <p>Aggregation performed spatially across the study area, producing a single value. These functions are often used together with temporal functions. </p>
 </td>
   </tr>
 				
   <tr>
-    <td align="left">                    <a href="https://github.com/ESIPFed/QueryAnalyticsOfBigClimateData/wiki/UDSF:-Spatial-Functions" class="btn btn-default btn-xl wow tada" target="_blank"> Temporal   Functions<i class="fa fa-lg fa-arrow-circle-right"></i></a>
+    <td align="left">                    <a href="https://github.com/GIDBUSC/SCOVAS/wiki/UDSF:-Temporal-Functions" class="btn btn-default btn-xl wow tada" target="_blank"> Temporal   Functions<i class="fa fa-lg fa-arrow-circle-right"></i></a>
 </td>
-    <td align="left"> <p>Aggregation performed spatially across the study area, producing a single value. These functions are often used together with temporal functions. </p></td>
+    <td align="left"> <p>Aggregation performed temporally along the timestamps for each cell location, producing a single grid. These functions are usually used with GROUP BY keyword and combined with other functions, such Avg_S and Render, to produce the result.</p></td>
   </tr>
 				
     <tr>
-    <td align="left">                    <a href="https://github.com/ESIPFed/QueryAnalyticsOfBigClimateData/wiki/UDSF:-Temporal-Functions" class="btn btn-default btn-xl wow tada" target="_blank">Neighbour Functions<i class="fa fa-lg fa-arrow-circle-right"></i></a>
+    <td align="left">                    <a href="https://github.com/GIDBUSC/SCOVAS/wiki/UDSF:-Neighbourhood-Functions" class="btn btn-default btn-xl wow tada" target="_blank">Neighbour Functions<i class="fa fa-lg fa-arrow-circle-right"></i></a>
 </td>
-    <td align="left">		   <p>Aggregation performed temporally along the timestamps for each cell location, producing a single grid. These functions are usually used with GROUP BY keyword and combined with other functions, such Avg_S and Render, to produce the result.</p>
+    <td align="left">		   <p>For supporting spatial neighbourhood analysis. It uses a moving window to define the neighbourhood for each cell in the grid, and all cells contained in the neighbourhood are summarized using the statistical function to obtain a statistic</p>
 </td>
   </tr>
 				
     <tr>
-    <td align="left">                    <a href="https://github.com/ESIPFed/QueryAnalyticsOfBigClimateData/wiki/UDSF:-Map-Algebra-Functions" class="btn btn-default btn-xl wow tada" target="_blank">Arithmetic Functions <i class="fa fa-lg fa-arrow-circle-right"></i></a>
+    <td align="left">                    <a href="https://github.com/GIDBUSC/SCOVAS/wiki/UDSF:-Arithmetic-Functions" class="btn btn-default btn-xl wow tada" target="_blank">Arithmetic Functions <i class="fa fa-lg fa-arrow-circle-right"></i></a>
 </td>
-    <td align="left">		  <p>There are two types of Map Algebra Functions. One type takes two grids as the input and a new grid is generated with each cell value obtained from the arithmetic operations of the two corresponding input cells.  </p>
+    <td align="left">		  <p>There are two types of Arithmetic-Functions. One type takes two grids as the input and a new grid is generated with each cell value obtained from the arithmetic operations of the two corresponding input cells.  </p>
 </td>
   </tr>
 				
 <tr>
-    <td align="left">                    <a href="https://github.com/ESIPFed/QueryAnalyticsOfBigClimateData/wiki/UDSF:-Map-Algebra-Functions" class="btn btn-default btn-xl wow tada" target="_blank">&nbsp;Logical Functions&nbsp;&nbsp; <i class="fa fa-lg fa-arrow-circle-right"></i></a>
+    <td align="left">                    <a href="https://github.com/GIDBUSC/SCOVAS/wiki/UDSF:-Logical-Functions" class="btn btn-default btn-xl wow tada" target="_blank">&nbsp;Logical Functions&nbsp;&nbsp; <i class="fa fa-lg fa-arrow-circle-right"></i></a>
 </td>
-    <td align="left">		  <p>There are two types of Map Algebra Functions. One type takes two grids as the input and a new grid is generated with each cell value obtained from the arithmetic operations of the two corresponding input cells.  </p>
+    <td align="left">		  <p>Returns a new grid with each cell value equals to the boolean result(1 for true, 0 for false) of the logical comparison.</p>
 </td>
   </tr>			
   
 <tr>
-    <td align="left">                    <a href="https://github.com/ESIPFed/QueryAnalyticsOfBigClimateData/wiki/UDSF:-Map-Algebra-Functions" class="btn btn-default btn-xl wow tada" target="_blank">Converting Functions <i class="fa fa-lg fa-arrow-circle-right"></i></a>
+    <td align="left">                    <a href="https://github.com/GIDBUSC/SCOVAS/wiki/USDF:-Converting-Functions" class="btn btn-default btn-xl wow tada" target="_blank">Converting Functions <i class="fa fa-lg fa-arrow-circle-right"></i></a>
 </td>
-    <td align="left">		  <p>There are two types of Map Algebra Functions. One type takes two grids as the input and a new grid is generated with each cell value obtained from the arithmetic operations of the two corresponding input cells.  </p>
+    <td align="left">		  <p>Convert the data from one format(e.g., grid) to another format(e.g., image).
+
+</p>
 </td>
   </tr>
 </table>
